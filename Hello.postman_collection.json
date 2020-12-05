@@ -1,0 +1,61 @@
+{
+	"id": "f34272e3-70ad-464e-bc5f-58f8e8940eb0",
+	"name": "Hello",
+	"description": null,
+	"auth": null,
+	"events": null,
+	"variables": [],
+	"order": [
+		"b7506b47-a447-46e2-8246-969d1e05df4c",
+		"edd7e845-5c1a-4eb0-a32b-5478af9c254b"
+	],
+	"folders_order": [],
+	"protocolProfileBehavior": {},
+	"folders": [],
+	"requests": [
+		{
+			"id": "b7506b47-a447-46e2-8246-969d1e05df4c",
+			"name": "Hello",
+			"url": "",
+			"description": "Takes a string parameter called name a return hello + name",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "edd7e845-5c1a-4eb0-a32b-5478af9c254b",
+			"name": "Hello User",
+			"url": "http://localhost:54913/api/Demo?name=ben",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "name",
+					"value": "ben",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		}
+	]
+}
